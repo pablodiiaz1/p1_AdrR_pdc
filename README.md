@@ -4,12 +4,10 @@
 
 Para ejecutar el publisher-subscriber, solo hay que hacer:
 
-	ros2 run p1_adr_rme navsatfixpublisher
-	ros2 run p1_adr_rme navsatfixsubscriber
+	ros2 run tutorials publisher
+	ros2 run tutorials subscriber
   
 Para ejecutar el service client: 
 
-	ros2 run p1_adr_rme squareservice
-	ros2 run p1_adr_rme squareclient a b
- 
-siendo *a* el número al que vamos a calcular el cuadrado y *b* un número cualquiera, ya que no lo utilizaremos para nada.
+   ros2 run tutorial2 client <numero>
+   ros2 run tutorial2 service 
