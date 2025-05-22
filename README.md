@@ -9,5 +9,5 @@ Para ejecutar el publisher-subscriber, solo hay que hacer:
   
 Para ejecutar el service client: 
 
-   ros2 run tutorial2 client <numero>
-   ros2 run tutorial2 service 
+   	ros2 run tutorial2 client <numero>
+   	ros2 run tutorial2 service 
